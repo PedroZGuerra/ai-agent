@@ -30,24 +30,33 @@ class ArcanisTutor:
             resposta = self.responder(pergunta)
             print(f"\n{resposta}\n")
 
-            # pergunta interativa de continuação
-            continuar = input('Deseja saber sobre outro tópico? (s/n): ').lower().strip()
-            if continuar != 's':
-                print('Até breve, planeswalker!')
-                break
-
     def responder(self, pergunta):
+        # Detecta se pergunta contém combinação de dois efeitos
+        detected = set()
+        # Separar simples e compostos
+        simple_keys = {k: v for k, v in self.responses.items() if '_' not in k}
+        composite_keys = {k: v for k, v in self.responses.items() if '_' in k}
+        # Verifica simples presentes
+        for key, entry in simple_keys.items():
+            if any(kw in pergunta for kw in entry['keywords']):
+                detected.add(key)
+        # Se dois ou mais detectados, tenta achar composite
+        if len(detected) >= 2:
+            for comp_key, entry in composite_keys.items():
+                parts = comp_key.split('_')
+                if all(part in detected for part in parts):
+                    return entry['response']
+        # Caso não seja composite, segue matching usual
         # Prioriza correspondências mais longas
         kw_resp = []
         for entry in self.responses.values():
             for kw in entry['keywords']:
                 kw_resp.append((kw, entry['response']))
         kw_resp.sort(key=lambda x: len(x[0]), reverse=True)
-
+        # Match exato
         for kw, resp in kw_resp:
             if kw in pergunta:
                 return resp
-
         # Fallback fuzzy
         all_keys = [kw for entry in self.responses.values() for kw in entry['keywords']]
         match = difflib.get_close_matches(pergunta, all_keys, n=1, cutoff=0.6)
@@ -55,13 +64,13 @@ class ArcanisTutor:
             for entry in self.responses.values():
                 if match[0] in entry['keywords']:
                     return entry['response']
-
         return 'Hmm... Não conheço esse termo. Digite "ajuda" para ver tópicos disponíveis.'
 
     def _mostrar_topicos(self):
-        topicos = [f"- {key}" for key in sorted(self.responses.keys())]
+        topicos = sorted(self.responses.keys())
         print('\nTópicos disponíveis:')
-        print('\n'.join(topicos))
+        for t in topicos:
+            print('-', t)
         print()
 
 if __name__ == '__main__':
