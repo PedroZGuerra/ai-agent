@@ -1,0 +1,146 @@
+{
+  "turn": {
+    "keywords": ["turno", "turn"],
+    "response": "Cada turno (turn) é dividido em fases: Desvirar (Untap), Manutenção (Upkeep), Compra (Draw), Fase Principal 1 (Main Phase 1), Combate (Combat), Fase Principal 2 (Main Phase 2) e Encerramento (End)."
+  },
+  "mana": {
+    "keywords": ["mana", "energia"],
+    "response": "Mana é a energia usada para conjurar magias. Existem 5 cores (Branco/White, Azul/Blue, Preto/Black, Vermelho/Red e Verde/Green) e mana incolor (Colorless)."
+  },
+  "stack": {
+    "keywords": ["pilha", "stack"],
+    "response": "A pilha (stack) é onde as mágicas e habilidades esperam para resolver. Funciona como LIFO: o último a entrar, primeiro a sair."
+  },
+  "flying": {
+    "keywords": ["voar", "flying"],
+    "response": "Voar (Flying) é uma habilidade de evasão. Criaturas com voar só podem ser bloqueadas por criaturas com voar ou alcance (reach)."
+  },
+  "reach": {
+    "keywords": ["alcance", "reach"],
+    "response": "Alcance (Reach) permite que a criatura bloqueie criaturas com voar (Flying)."
+  },
+  "vigilance": {
+    "keywords": ["vigilancia", "vigilance"],
+    "response": "Vigilância (Vigilance) faz com que a criatura não vire ao atacar, permitindo usá-la também para bloquear no turno adversário."
+  },
+  "flash": {
+    "keywords": ["flash"],
+    "response": "Flash permite que você jogue a mágica como se fosse uma instantânea, em qualquer momento em que você poderia jogar um instant."
+  },
+  "haste": {
+    "keywords": ["impeto", "ímpeto", "haste"],
+    "response": "Ímpeto (Haste) faz com que a criatura ignore enjoo de invocação (summoning sickness) e possa atacar ou usar habilidades viradas no mesmo turno em que entrou em jogo."
+  },
+  "first_strike": {
+    "keywords": ["iniciativa", "first strike"],
+    "response": "Iniciativa (First Strike) permite que a criatura cause dano na etapa de dano prévia, antes das sem First Strike resolverem."
+  },
+  "double_strike": {
+    "keywords": ["golpe duplo", "double strike", "dupla investida"],
+    "response": "Golpe Duplo (Double Strike) faz a criatura causar dano tanto na etapa de First Strike quanto na etapa normal de dano."
+  },
+  "deathtouch": {
+    "keywords": ["toque mortifero", "toque mortífero", "deathtouch"],
+    "response": "Toque Mortífero (Deathtouch) faz com que qualquer quantidade de dano causado destrua criaturas, independentemente da resistência delas."
+  },
+  "lifelink": {
+    "keywords": ["lifelink", "ganho de vida", "vida"],
+    "response": "Lifelink faz com que o controlador ganhe vida igual ao dano causado pela criatura ou fonte."
+  },
+  "trample": {
+    "keywords": ["atropelar", "trample"],
+    "response": "Atropelar (Trample) permite que o dano excedente de uma criatura bloqueada seja atribuído ao jogador ou planeswalker defensor."
+  },
+  "protection": {
+    "keywords": ["protecao", "proteção", "protection"],
+    "response": "Proteção (Protection) de [qualquer coisa] previne que a criatura receba dano, seja alvo, bloqueada ou encantada por permanentes daquela qualidade."
+  },
+  "hexproof": {
+    "keywords": ["hexproof", "hex proof"],
+    "response": "Hexproof impede que a criatura ou jogador seja alvo de mágicas ou habilidades controladas por oponentes."
+  },
+  "indestructible": {
+    "keywords": ["indestrutivel", "indestrutível", "indestructible"],
+    "response": "Indestrutível (Indestructible) faz com que a criatura não seja destruída por dano ou efeitos que digam 'destroy'."
+  },
+  "artifact": {
+    "keywords": ["artefato", "artifact"],
+    "response": "Artefatos (Artifacts) são permanentes incolores com diversos efeitos. Equipamentos (Equipment) são artefatos que podem ser anexados a criaturas."
+  },
+  "enchantment": {
+    "keywords": ["encantamento", "enchantment"],
+    "response": "Encantamentos (Enchantments) são permanentes que fornecem efeitos contínuos. Auras (subtipo) se anexam a permanentes específicas."
+  },
+  "equipment": {
+    "keywords": ["equipamento", "equipment"],
+    "response": "Equipamento (Equipment) é um artefato que pode ser anexado a uma criatura para dar habilidades ou bônus."
+  },
+  "sorcery_instant": {
+    "keywords": ["sorcery", "feitiço", "instant", "instantânea"],
+    "response": "Feitiços (Sorceries) só podem ser jogados em fases principais quando a pilha está vazia. Instants (Instantâneas) podem ser jogados a qualquer momento."
+  },
+  "poison": {
+    "keywords": ["veneno", "poison", "toxic"],
+    "response": "Toxic adiciona marcadores de veneno (poison counters) a jogadores; ao chegar a 10, você perde o jogo."
+  },
+  "mulligan": {
+    "keywords": ["mulligan"],
+    "response": "No mulligan de Londres (London Mulligan), você compra 7 cartas e devolve cartas ao grimório igual ao número de mulligans feitos."
+  },
+  "commander": {
+    "keywords": ["commander"],
+    "response": "Commander é um formato multiplayer com deck de 100 cartas, sem repetições, liderado por um comandante na zona de comando."
+  },
+  "planeswalker": {
+    "keywords": ["planeswalker"],
+    "response": "Planeswalkers entram com marcadores de lealdade. Você pode ativar apenas uma habilidade de lealdade por turno."
+  },
+  "draw": {
+    "keywords": ["compra", "draw", "comprar carta"],
+    "response": "Na fase de compra (Draw), você compra uma carta do seu grimório. Algumas habilidades modificam essa ação."
+  },
+  "counter": {
+    "keywords": ["marcador", "counter", "contadores"],
+    "response": "Marcadores (Counters) podem modificar atributos de permanentes ou representar contadores de veneno, +1/+1 ou outros efeitos."
+  },
+  "token": {
+    "keywords": ["ficha", "token", "criatura token"],
+    "response": "Fichas (Tokens) são permanentes criados por efeitos de mágicas ou habilidades, geralmente criaturas sem card propriamente dito."
+  },
+  "activated_ability": {
+    "keywords": ["ativada", "activated ability"],
+    "response": "Habilidades Ativadas são representadas por 'Custo: Efeito' e podem ser ativadas quando você tiver prioridade e puder pagar o custo."
+  },
+  "triggered_ability": {
+    "keywords": ["disparada", "triggered ability"],
+    "response": "Habilidades Disparadas começam com 'Quando', 'Sempre que' ou 'Toda vez que' e se resolvem automaticamente ao cumprir a condição."
+  },
+  "deathtouch_trample": {
+    "keywords": ["trample deathtouch", "deathtouch trample", "trample + deathtouch", "deathtouch + trample"],
+    "response": "Quando uma criatura com Toque Mortífero e Atropelar causa dano de combate, o Toque Mortífero faz com que qualquer quantidade de dano destrua criaturas bloqueadoras, e o dano excedente é atribuído ao jogador ou planeswalker defensor por Atropelar."
+  },
+  "lifelink_trample": {
+    "keywords": ["trample lifelink", "lifelink trample", "trample + lifelink", "lifelink + trample"],
+    "response": "Quando uma criatura com Lifelink e Atropelar causa dano de combate, você ganha vida igual ao dano marcado em criaturas bloqueadoras ou defensor (incluindo o dano excedente) graças ao Lifelink, e o dano excedente passa para o jogador ou planeswalker defensor por Atropelar."
+  },
+  "double_strike_lifelink": {
+    "keywords": ["double strike lifelink", "lifelink double strike", "double strike + lifelink", "lifelink + double strike", "golpe duplo lifelink"],
+    "response": "Uma criatura com Golpe Duplo e Lifelink causa dano na fase de First Strike e na fase de dano normal. Em cada fase, o Lifelink faz você ganhar vida igual ao dano causado."
+  },
+  "first_strike_deathtouch": {
+    "keywords": ["first strike deathtouch", "deathtouch first strike", "iniciativa toque mortifero", "toque mortifero iniciativa"],
+    "response": "Uma criatura com First Strike e Deathtouch causa dano na etapa de First Strike, destruindo qualquer criatura bloqueada (por Deathtouch) antes que criaturas sem First Strike possam atribuir dano."
+  },
+  "haste_vigilance": {
+    "keywords": ["haste vigilance", "impeto vigilancia", "ímpeto vigilância"],
+    "response": "Uma criatura com Haste e Vigilance entra virada (por Haste), mas não vira quando ataca (por Vigilance), permitindo atacar imediatamente e ainda ficar pronta para bloquear."
+  },
+  "lifelink_deathtouch": {
+    "keywords": ["lifelink deathtouch", "deathtouch lifelink", "ganho de vida toque mortifero"],
+    "response": "Uma criatura com Lifelink e Deathtouch destrói criaturas com 1 ponto de dano e faz você ganhar vida igual ao dano infligido — mesmo que seja só 1 ponto."
+  },
+  "double_strike_trample": {
+    "keywords": ["double strike trample", "golpe duplo atropelar", "trample double strike"],
+    "response": "Golpe Duplo + Trample: na fase de First Strike, seu dano pode exceder o bloqueio e rolar para o jogador defensor; na fase normal, ele ainda ataca de novo, aplicando mais dano e rolando o excedente."
+  }
+}
