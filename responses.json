@@ -1,4 +1,16 @@
 {
+  "creature": {
+    "keywords": ["criatura", "creature"],
+    "response": "Criaturas são permanentes que podem atacar e bloquear. Cada criatura tem dois valores principais: força (power) e resistência (toughness), além de possuírem tipos e, às vezes, habilidades."
+  },
+  "power": {
+    "keywords": ["poder", "power", "força"],
+    "response": "Power (Força) é o número à esquerda na caixa de texto de uma criatura. Ele determina quantos pontos de dano essa criatura causa durante o combate."
+  },
+  "toughness": {
+    "keywords": ["resistencia", "resistência", "toughness"],
+    "response": "Toughness (Resistência) é o número à direita na caixa de texto de uma criatura. Ele indica quantos pontos de dano a criatura pode receber em um único turno antes de ser destruída."
+  },
   "turn": {
     "keywords": ["turno", "turn"],
     "response": "Cada turno (turn) é dividido em fases: Desvirar (Untap), Manutenção (Upkeep), Compra (Draw), Fase Principal 1 (Main Phase 1), Combate (Combat), Fase Principal 2 (Main Phase 2) e Encerramento (End)."
@@ -9,7 +21,7 @@
   },
   "stack": {
     "keywords": ["pilha", "stack"],
-    "response": "A pilha (stack) é onde as mágicas e habilidades esperam para resolver. Funciona como LIFO: o último a entrar, primeiro a sair."
+    "response": "A pilha (stack) é onde as mágicas e habilidades esperam para resolver. O último a entrar é primeiro a sair."
   },
   "flying": {
     "keywords": ["voar", "flying"],
@@ -114,6 +126,62 @@
   "triggered_ability": {
     "keywords": ["disparada", "triggered ability"],
     "response": "Habilidades Disparadas começam com 'Quando', 'Sempre que' ou 'Toda vez que' e se resolvem automaticamente ao cumprir a condição."
+  },
+    "exile": {
+    "keywords": ["exile", "exilar", "exilado"],
+    "response": "Exilar remove cartas ou permanentes do jogo, colocando-as na zona de exílio. Elas não vão para o cemitério e só voltam se uma mágica ou habilidade especificamente as trouxer de volta."
+  },
+  "mill": {
+    "keywords": ["mill", "milling", "millar", "triturar"],
+    "response": "Mill é fazer um jogador colocar cartas do topo do grimório diretamente no cemitério. Varia conforme a instrução (por ex., mill 3 cartas)."
+  },
+  "cascade": {
+    "keywords": ["cascade", "cascata"],
+    "response": "Cascade faz você exilar cartas do topo do seu grimório até exilar uma não-terreno de custo menor; você joga essa carta de graça e depois coloca as demais no fundo em ordem aleatória."
+  },
+  "morph": {
+    "keywords": ["morph", "morfar"],
+    "response": "Morph permite jogar uma criatura virada por um custo alternativo (face down). A qualquer momento, você pode pagar o custo de morph para virá-la e revelar sua face verdadeira."
+  },
+  "flashback": {
+    "keywords": ["flashback", "retorno de magia"],
+    "response": "Flashback permite jogar um instant ou feitiço do seu cemitério pagando seu custo de flashback, depois exila-o em vez de colocá-lo de volta."
+  },
+  "retrace": {
+    "keywords": ["retrace", "regravar"],
+    "response": "Retrace permite jogar um feitiço do seu cemitério pagando seus custos normais e descartando um terreno além disso, em vez de apenas do grimório."
+  },
+  "proliferate": {
+    "keywords": ["proliferate", "proliferação", "proliferar"],
+    "response": "Proliferar faz você escolher qualquer número de permanentes e/ou jogadores com marcadores e adicionar um marcador de cada tipo já presente neles."
+  },
+  "infect": {
+    "keywords": ["infect", "infectar"],
+    "response": "Infect faz criaturas causar dano a jogadores em forma de marcadores de veneno e a criaturas em forma de marcadores -1/-1."
+  },
+  "affinity": {
+    "keywords": ["affinity", "afinidade"],
+    "response": "Affinity reduz o custo de uma mágica com base no número de permanentes com aquela qualidade que você controla (por ex., Affinity for artifacts)."
+  },
+  "equip": {
+    "keywords": ["equip", "equipe", "equipar"],
+    "response": "A habilidade Equipar permite anexa um equipamento a uma criatura alvo pagando seu custo de equip. Só pode ser ativada como habilidade ativada."
+  },
+  "level_up": {
+    "keywords": ["level up", "subir de nivel", "nivelar"],
+    "response": "Level up é uma habilidade que adiciona marcadores de nível a uma criatura por um custo; ao atingir certos níveis, ela ganha habilidades ou estatísticas melhores."
+  },
+  "fading": {
+    "keywords": ["fading", "desbotar"],
+    "response": "Fading entra com N marcadores de fade. No início da manutenção, remova um; se não puder, sacrifique a permanente."
+  },
+  "cumulative_upkeep": {
+    "keywords": ["cumulative upkeep", "manutenção cumulativa"],
+    "response": "Cumulative Upkeep exige que você pague um custo crescente ({Custo} +1 a cada vez) no início de cada manutenção ou sacrifique a permanente."
+  },
+  "scry": {
+    "keywords": ["scry", "videncia"],
+    "response": "Scry N faz você olhar as N cartas do topo do seu grimório e depois colocar qualquer número delas no fundo e o resto de volta no topo na ordem de sua escolha."
   },
   "deathtouch_trample": {
     "keywords": ["trample deathtouch", "deathtouch trample", "trample + deathtouch", "deathtouch + trample"],
