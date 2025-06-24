@@ -1,202 +1,250 @@
 {
+  "templates": [
+    "Sem dúvida! Aqui está o que você precisa saber sobre {topic}...",
+    "Ah, {topic}! Deixe-me contar tudo sobre isso...",
+    "Vamos lá! Aqui vai uma explicação sobre {topic}...",
+    "Entendido! Agora você vai entender {topic} direitinho...",
+    "Excelente pergunta! Aprenda agora sobre {topic}...",
+    "Atenção, planeswalker! Aqui está tudo sobre {topic}...",
+    "Prepare-se, pois vou revelar os segredos de {topic}...",
+    "Vamos mergulhar no mundo de {topic}...",
+    "Você pediu, Arcanis responde! Veja sobre {topic}...",
+    "Respondendo com sabedoria arcana sobre {topic}...",
+    "Aqui está uma resposta mística sobre {topic}...",
+    "Que bom que perguntou! Explicando {topic} agora mesmo...",
+    "Hora de aprender sobre {topic}, um conceito essencial...",
+    "Aqui vai uma lição digna da Academia de Tolarian sobre {topic}...",
+    "Analisando o conceito de {topic} com precisão mágica..."
+  ],
+  "Magic": {
+    "keywords": [
+      "magic",
+      "mtg",
+      "magic the gathering",
+      "o que é magic",
+      "sobre magic"
+    ],
+    "response": "✨ Magic: The Gathering (MTG) é um jogo de cartas colecionáveis criado por Richard Garfield e lançado pela Wizards of the Coast em 1993. Nele, os jogadores assumem o papel de poderosos magos chamados planeswalkers, que duelam entre si usando feitiços, criaturas e artefatos representados por cartas. O jogo combina estratégia, construção de baralho (deckbuilding) e elementos de fantasia. Magic é jogado em turnos e possui diversos formatos, desde casuais até competitivos, sendo um dos jogos de cartas mais influentes e duradouros do mundo. 🧙‍♂️"
+  },
   "creature": {
     "keywords": ["criatura", "creature"],
-    "response": "Criaturas são permanentes que podem atacar e bloquear. Cada criatura tem dois valores principais: força (power) e resistência (toughness), além de possuírem tipos e, às vezes, habilidades."
+    "response": "🧍‍♂️ Criaturas são permanentes que podem atacar e bloquear. Cada criatura tem dois valores principais: força (power) ⚔️ e resistência (toughness) 🛡️, além de possuírem tipos e, às vezes, habilidades."
   },
   "power": {
     "keywords": ["poder", "power", "força"],
-    "response": "Power (Força) é o número à esquerda na caixa de texto de uma criatura. Ele determina quantos pontos de dano essa criatura causa durante o combate."
+    "response": "⚔️ Power (Força) é o número à esquerda na caixa de texto de uma criatura. Ele determina quantos pontos de dano essa criatura causa durante o combate."
   },
   "toughness": {
     "keywords": ["resistencia", "resistência", "toughness"],
-    "response": "Toughness (Resistência) é o número à direita na caixa de texto de uma criatura. Ele indica quantos pontos de dano a criatura pode receber em um único turno antes de ser destruída."
+    "response": "🛡️ Toughness (Resistência) é o número à direita na caixa de texto de uma criatura. Ele indica quantos pontos de dano a criatura pode receber em um único turno antes de ser destruída."
   },
   "turn": {
     "keywords": ["turno", "turn"],
-    "response": "Cada turno (turn) é dividido em fases: Desvirar (Untap), Manutenção (Upkeep), Compra (Draw), Fase Principal 1 (Main Phase 1), Combate (Combat), Fase Principal 2 (Main Phase 2) e Encerramento (End)."
+    "response": "⏱️ Cada turno (turn) é dividido em fases: Desvirar (Untap), Manutenção (Upkeep), Compra (Draw), Fase Principal 1 (Main Phase 1), Combate (Combat), Fase Principal 2 (Main Phase 2) e Encerramento (End)."
   },
   "mana": {
     "keywords": ["mana", "energia"],
-    "response": "Mana é a energia usada para conjurar magias. Existem 5 cores (Branco/White, Azul/Blue, Preto/Black, Vermelho/Red e Verde/Green) e mana incolor (Colorless)."
+    "response": "💠 Mana é a energia usada para conjurar magias. Existem 5 cores (Branco/White ⚪, Azul/Blue 🔵, Preto/Black ⚫, Vermelho/Red 🔴 e Verde/Green 🟢) e mana incolor (Colorless)."
   },
   "stack": {
     "keywords": ["pilha", "stack"],
-    "response": "A pilha (stack) é onde as mágicas e habilidades esperam para resolver. O último a entrar é primeiro a sair."
+    "response": "📚 A pilha (stack) é onde as mágicas e habilidades esperam para resolver. O último a entrar é primeiro a sair (LIFO)."
   },
   "flying": {
     "keywords": ["voar", "flying"],
-    "response": "Voar (Flying) é uma habilidade de evasão. Criaturas com voar só podem ser bloqueadas por criaturas com voar ou alcance (reach)."
+    "response": "🕊️ Voar (Flying) é uma habilidade de evasão. Criaturas com voar só podem ser bloqueadas por criaturas com voar ou alcance (reach)."
   },
   "reach": {
     "keywords": ["alcance", "reach"],
-    "response": "Alcance (Reach) permite que a criatura bloqueie criaturas com voar (Flying)."
+    "response": "🗣️ Alcance (Reach) permite que a criatura bloqueie criaturas com voar (Flying)."
   },
   "vigilance": {
     "keywords": ["vigilancia", "vigilance"],
-    "response": "Vigilância (Vigilance) faz com que a criatura não vire ao atacar, permitindo usá-la também para bloquear no turno adversário."
+    "response": "🛡️ Vigilância (Vigilance) faz com que a criatura não vire ao atacar, permitindo usá-la também para bloquear no turno adversário."
   },
   "flash": {
     "keywords": ["flash"],
-    "response": "Flash permite que você jogue a mágica como se fosse uma instantânea, em qualquer momento em que você poderia jogar um instant."
+    "response": "⚡ Flash permite que você jogue a mágica como se fosse uma instantânea, em qualquer momento em que você poderia jogar um instant."
   },
   "haste": {
     "keywords": ["impeto", "ímpeto", "haste"],
-    "response": "Ímpeto (Haste) faz com que a criatura ignore enjoo de invocação (summoning sickness) e possa atacar ou usar habilidades viradas no mesmo turno em que entrou em jogo."
+    "response": "💨 Ímpeto (Haste) faz com que a criatura ignore enjoo de invocação (summoning sickness) e possa atacar ou usar habilidades viradas no mesmo turno em que entrou em jogo."
   },
   "first_strike": {
     "keywords": ["iniciativa", "first strike"],
-    "response": "Iniciativa (First Strike) permite que a criatura cause dano na etapa de dano prévia, antes das sem First Strike resolverem."
+    "response": "⚡ Iniciativa (First Strike) permite que a criatura cause dano na etapa de dano prévia, antes das sem First Strike resolverem."
   },
   "double_strike": {
     "keywords": ["golpe duplo", "double strike", "dupla investida"],
-    "response": "Golpe Duplo (Double Strike) faz a criatura causar dano tanto na etapa de First Strike quanto na etapa normal de dano."
+    "response": "⚔️⚔️ Golpe Duplo (Double Strike) faz a criatura causar dano tanto na etapa de First Strike quanto na etapa normal de dano."
   },
   "deathtouch": {
     "keywords": ["toque mortifero", "toque mortífero", "deathtouch"],
-    "response": "Toque Mortífero (Deathtouch) faz com que qualquer quantidade de dano causado destrua criaturas, independentemente da resistência delas."
+    "response": "☠️ Toque Mortífero (Deathtouch) faz com que qualquer quantidade de dano causado destrua criaturas, independentemente da resistência delas."
   },
   "lifelink": {
     "keywords": ["lifelink", "ganho de vida", "vida"],
-    "response": "Lifelink faz com que o controlador ganhe vida igual ao dano causado pela criatura ou fonte."
+    "response": "❤️‍🩹 Lifelink faz com que o controlador ganhe vida igual ao dano causado pela criatura ou fonte."
   },
   "trample": {
     "keywords": ["atropelar", "trample"],
-    "response": "Atropelar (Trample) permite que o dano excedente de uma criatura bloqueada seja atribuído ao jogador ou planeswalker defensor."
+    "response": "🐘 Atropelar (Trample) permite que o dano excedente de uma criatura bloqueada seja atribuído ao jogador ou planeswalker defensor."
   },
   "protection": {
     "keywords": ["protecao", "proteção", "protection"],
-    "response": "Proteção (Protection) de [qualquer coisa] previne que a criatura receba dano, seja alvo, bloqueada ou encantada por permanentes daquela qualidade."
+    "response": "🛡️ Proteção (Protection) de [qualquer coisa] previne que a criatura receba dano, seja alvo, bloqueada ou encantada por permanentes daquela qualidade."
   },
   "hexproof": {
     "keywords": ["hexproof", "hex proof"],
-    "response": "Hexproof impede que a criatura ou jogador seja alvo de mágicas ou habilidades controladas por oponentes."
+    "response": "🔮 Hexproof impede que a criatura ou jogador seja alvo de mágicas ou habilidades controladas por oponentes."
   },
   "indestructible": {
     "keywords": ["indestrutivel", "indestrutível", "indestructible"],
-    "response": "Indestrutível (Indestructible) faz com que a criatura não seja destruída por dano ou efeitos que digam 'destroy'."
+    "response": "🛡️ Indestrutível (Indestructible) faz com que a criatura não seja destruída por dano ou efeitos que digam 'destroy'."
   },
   "artifact": {
     "keywords": ["artefato", "artifact"],
-    "response": "Artefatos (Artifacts) são permanentes incolores com diversos efeitos. Equipamentos (Equipment) são artefatos que podem ser anexados a criaturas."
+    "response": "⚖️ Artefatos (Artifacts) são permanentes incolores com diversos efeitos. Equipamentos (Equipment) são artefatos que podem ser anexados a criaturas."
   },
   "enchantment": {
     "keywords": ["encantamento", "enchantment"],
-    "response": "Encantamentos (Enchantments) são permanentes que fornecem efeitos contínuos. Auras (subtipo) se anexam a permanentes específicas."
+    "response": "✨ Encantamentos (Enchantments) são permanentes que fornecem efeitos contínuos. Auras (subtipo) se anexam a permanentes específicas."
   },
   "equipment": {
     "keywords": ["equipamento", "equipment"],
-    "response": "Equipamento (Equipment) é um artefato que pode ser anexado a uma criatura para dar habilidades ou bônus."
+    "response": "📌 Equipamento (Equipment) é um artefato que pode ser anexado a uma criatura para dar habilidades ou bônus."
   },
   "sorcery_instant": {
     "keywords": ["sorcery", "feitiço", "instant", "instantânea"],
-    "response": "Feitiços (Sorceries) só podem ser jogados em fases principais quando a pilha está vazia. Instants (Instantâneas) podem ser jogados a qualquer momento."
+    "response": "✨ Feitiços (Sorceries) só podem ser jogados em fases principais quando a pilha está vazia. Instants (Instantâneas) podem ser jogados a qualquer momento."
   },
   "poison": {
     "keywords": ["veneno", "poison", "toxic"],
-    "response": "Toxic adiciona marcadores de veneno (poison counters) a jogadores; ao chegar a 10, você perde o jogo."
+    "response": "☠️ Toxic adiciona marcadores de veneno (poison counters) a jogadores; o jogador que chegar a 10 contadores de veneno perde o jogo."
   },
   "mulligan": {
     "keywords": ["mulligan"],
-    "response": "No mulligan de Londres (London Mulligan), você compra 7 cartas e devolve cartas ao grimório igual ao número de mulligans feitos."
+    "response": "🔄 No mulligan de Londres (London Mulligan), você compra 7 cartas e devolve cartas ao grimório igual ao número de mulligans feitos."
   },
   "commander": {
-    "keywords": ["commander"],
-    "response": "Commander é um formato multiplayer com deck de 100 cartas, sem repetições, liderado por um comandante na zona de comando."
+    "keywords": ["commander", "comandante"],
+    "response": "👑 Commander é um formato multiplayer com deck de 100 cartas, sem repetições, liderado por um comandante na zona de comando."
   },
   "planeswalker": {
     "keywords": ["planeswalker"],
-    "response": "Planeswalkers entram com marcadores de lealdade. Você pode ativar apenas uma habilidade de lealdade por turno."
+    "response": "🔱 Planeswalkers entram com marcadores de lealdade. Você pode ativar apenas uma habilidade de lealdade por turno."
   },
   "draw": {
     "keywords": ["compra", "draw", "comprar carta"],
-    "response": "Na fase de compra (Draw), você compra uma carta do seu grimório. Algumas habilidades modificam essa ação."
+    "response": "🃏 Na fase de compra (Draw), você compra uma carta do seu grimório. Algumas habilidades modificam essa ação."
   },
   "counter": {
     "keywords": ["marcador", "counter", "contadores"],
-    "response": "Marcadores (Counters) podem modificar atributos de permanentes ou representar contadores de veneno, +1/+1 ou outros efeitos."
+    "response": "🔹 Marcadores (Counters) podem modificar atributos de permanentes ou representar contadores de veneno, +1/+1 ou outros efeitos."
   },
   "token": {
     "keywords": ["ficha", "token", "criatura token"],
-    "response": "Fichas (Tokens) são permanentes criados por efeitos de mágicas ou habilidades, geralmente criaturas sem card propriamente dito."
+    "response": "🤖 Fichas (Tokens) são permanentes criados por efeitos de mágicas ou habilidades, geralmente criaturas sem card propriamente dito."
   },
   "activated_ability": {
     "keywords": ["ativada", "activated ability"],
-    "response": "Habilidades Ativadas são representadas por 'Custo: Efeito' e podem ser ativadas quando você tiver prioridade e puder pagar o custo."
+    "response": "⚙️ Habilidades Ativadas são representadas por 'Custo: Efeito' e podem ser ativadas quando você tiver prioridade e puder pagar o custo."
   },
   "triggered_ability": {
     "keywords": ["disparada", "triggered ability"],
-    "response": "Habilidades Disparadas começam com 'Quando', 'Sempre que' ou 'Toda vez que' e se resolvem automaticamente ao cumprir a condição."
+    "response": "🔢 Habilidades Disparadas começam com 'Quando', 'Sempre que' ou 'Toda vez que' e se resolvem automaticamente ao cumprir a condição."
   },
-    "exile": {
+  "exile": {
     "keywords": ["exile", "exilar", "exilado"],
-    "response": "Exilar remove cartas ou permanentes do jogo, colocando-as na zona de exílio. Elas não vão para o cemitério e só voltam se uma mágica ou habilidade especificamente as trouxer de volta."
+    "response": "❌ Exilar remove cartas ou permanentes do jogo, colocando-as na zona de exílio. Elas não vão para o cemitério e só voltam se uma mágica ou habilidade especificamente as trouxer de volta."
   },
   "mill": {
     "keywords": ["mill", "milling", "millar", "triturar"],
-    "response": "Mill é fazer um jogador colocar cartas do topo do grimório diretamente no cemitério. Varia conforme a instrução (por ex., mill 3 cartas)."
+    "response": "🗑️ Mill é fazer um jogador colocar cartas do topo do grimório diretamente no cemitério. Varia conforme a instrução (por ex., mill 3 cartas)."
   },
   "cascade": {
     "keywords": ["cascade", "cascata"],
-    "response": "Cascade faz você exilar cartas do topo do seu grimório até exilar uma não-terreno de custo menor; você joga essa carta de graça e depois coloca as demais no fundo em ordem aleatória."
+    "response": "🌀 Cascade faz você exilar cartas do topo do seu grimório até exilar uma não-terreno de custo menor; você joga essa carta de graça e depois coloca as demais no fundo em ordem aleatória."
   },
   "morph": {
     "keywords": ["morph", "morfar"],
-    "response": "Morph permite jogar uma criatura virada por um custo alternativo (face down). A qualquer momento, você pode pagar o custo de morph para virá-la e revelar sua face verdadeira."
+    "response": "🔒 Morph permite jogar uma criatura virada por um custo alternativo (face down). A qualquer momento, você pode pagar o custo de morph para virá-la e revelar sua face verdadeira."
   },
   "flashback": {
     "keywords": ["flashback", "retorno de magia"],
-    "response": "Flashback permite jogar um instant ou feitiço do seu cemitério pagando seu custo de flashback, depois exila-o em vez de colocá-lo de volta."
+    "response": "🔄 Flashback permite jogar um instant ou feitiço do seu cemitério pagando seu custo de flashback, depois exila-o em vez de colocá-lo de volta."
   },
   "retrace": {
     "keywords": ["retrace", "regravar"],
-    "response": "Retrace permite jogar um feitiço do seu cemitério pagando seus custos normais e descartando um terreno além disso, em vez de apenas do grimório."
+    "response": "♻️ Retrace permite jogar um feitiço do seu cemitério pagando seus custos normais e descartando um terreno além disso, em vez de apenas do grimório."
   },
   "proliferate": {
     "keywords": ["proliferate", "proliferação", "proliferar"],
-    "response": "Proliferar faz você escolher qualquer número de permanentes e/ou jogadores com marcadores e adicionar um marcador de cada tipo já presente neles."
+    "response": "📈 Proliferar faz você escolher qualquer número de permanentes e/ou jogadores com marcadores e adicionar um marcador de cada tipo já presente neles."
   },
   "infect": {
     "keywords": ["infect", "infectar"],
-    "response": "Infect faz criaturas causar dano a jogadores em forma de marcadores de veneno e a criaturas em forma de marcadores -1/-1."
+    "response": "☣️ Infect faz criaturas causar dano a jogadores em forma de marcadores de veneno e a criaturas em forma de marcadores -1/-1."
   },
   "affinity": {
     "keywords": ["affinity", "afinidade"],
-    "response": "Affinity reduz o custo de uma mágica com base no número de permanentes com aquela qualidade que você controla (por ex., Affinity for artifacts)."
+    "response": "📊 Affinity reduz o custo de uma mágica com base no número de permanentes com aquela qualidade que você controla (por ex., Affinity for artifacts)."
   },
   "equip": {
     "keywords": ["equip", "equipe", "equipar"],
-    "response": "A habilidade Equipar permite anexa um equipamento a uma criatura alvo pagando seu custo de equip. Só pode ser ativada como habilidade ativada."
+    "response": "📌 A habilidade Equipar permite anexa um equipamento a uma criatura alvo pagando seu custo de equip. Só pode ser ativada como habilidade ativada."
   },
   "level_up": {
     "keywords": ["level up", "subir de nivel", "nivelar"],
-    "response": "Level up é uma habilidade que adiciona marcadores de nível a uma criatura por um custo; ao atingir certos níveis, ela ganha habilidades ou estatísticas melhores."
+    "response": "🔼 Level up é uma habilidade que adiciona marcadores de nível a uma criatura por um custo; ao atingir certos níveis, ela ganha habilidades ou estatísticas melhores."
   },
   "fading": {
     "keywords": ["fading", "desbotar"],
-    "response": "Fading entra com N marcadores de fade. No início da manutenção, remova um; se não puder, sacrifique a permanente."
+    "response": "🕳️ Fading entra com N marcadores de fade. No início da manutenção, remova um; se não puder, sacrifique a permanente."
   },
   "cumulative_upkeep": {
     "keywords": ["cumulative upkeep", "manutenção cumulativa"],
-    "response": "Cumulative Upkeep exige que você pague um custo crescente ({Custo} +1 a cada vez) no início de cada manutenção ou sacrifique a permanente."
+    "response": "🪧 Cumulative Upkeep exige que você pague um custo crescente ({Custo} +1 a cada vez) no início de cada manutenção ou sacrifique a permanente."
   },
   "scry": {
     "keywords": ["scry", "videncia"],
-    "response": "Scry N faz você olhar as N cartas do topo do seu grimório e depois colocar qualquer número delas no fundo e o resto de volta no topo na ordem de sua escolha."
+    "response": "🔮 Scry N faz você olhar as N cartas do topo do seu grimório e depois colocar qualquer número delas no fundo e o resto de volta no topo na ordem de sua escolha."
   },
   "deathtouch_trample": {
-    "keywords": ["trample deathtouch", "deathtouch trample", "trample + deathtouch", "deathtouch + trample"],
+    "keywords": [
+      "trample deathtouch",
+      "deathtouch trample",
+      "trample + deathtouch",
+      "deathtouch + trample"
+    ],
     "response": "Quando uma criatura com Toque Mortífero e Atropelar causa dano de combate, o Toque Mortífero faz com que qualquer quantidade de dano destrua criaturas bloqueadoras, e o dano excedente é atribuído ao jogador ou planeswalker defensor por Atropelar."
   },
   "lifelink_trample": {
-    "keywords": ["trample lifelink", "lifelink trample", "trample + lifelink", "lifelink + trample"],
+    "keywords": [
+      "trample lifelink",
+      "lifelink trample",
+      "trample + lifelink",
+      "lifelink + trample"
+    ],
     "response": "Quando uma criatura com Lifelink e Atropelar causa dano de combate, você ganha vida igual ao dano marcado em criaturas bloqueadoras ou defensor (incluindo o dano excedente) graças ao Lifelink, e o dano excedente passa para o jogador ou planeswalker defensor por Atropelar."
   },
   "double_strike_lifelink": {
-    "keywords": ["double strike lifelink", "lifelink double strike", "double strike + lifelink", "lifelink + double strike", "golpe duplo lifelink"],
+    "keywords": [
+      "double strike lifelink",
+      "lifelink double strike",
+      "double strike + lifelink",
+      "lifelink + double strike",
+      "golpe duplo lifelink"
+    ],
     "response": "Uma criatura com Golpe Duplo e Lifelink causa dano na fase de First Strike e na fase de dano normal. Em cada fase, o Lifelink faz você ganhar vida igual ao dano causado."
   },
   "first_strike_deathtouch": {
-    "keywords": ["first strike deathtouch", "deathtouch first strike", "iniciativa toque mortifero", "toque mortifero iniciativa"],
+    "keywords": [
+      "first strike deathtouch",
+      "deathtouch first strike",
+      "iniciativa toque mortifero",
+      "toque mortifero iniciativa"
+    ],
     "response": "Uma criatura com First Strike e Deathtouch causa dano na etapa de First Strike, destruindo qualquer criatura bloqueada (por Deathtouch) antes que criaturas sem First Strike possam atribuir dano."
   },
   "haste_vigilance": {
@@ -204,11 +252,19 @@
     "response": "Uma criatura com Haste e Vigilance entra virada (por Haste), mas não vira quando ataca (por Vigilance), permitindo atacar imediatamente e ainda ficar pronta para bloquear."
   },
   "lifelink_deathtouch": {
-    "keywords": ["lifelink deathtouch", "deathtouch lifelink", "ganho de vida toque mortifero"],
+    "keywords": [
+      "lifelink deathtouch",
+      "deathtouch lifelink",
+      "ganho de vida toque mortifero"
+    ],
     "response": "Uma criatura com Lifelink e Deathtouch destrói criaturas com 1 ponto de dano e faz você ganhar vida igual ao dano infligido — mesmo que seja só 1 ponto."
   },
   "double_strike_trample": {
-    "keywords": ["double strike trample", "golpe duplo atropelar", "trample double strike"],
+    "keywords": [
+      "double strike trample",
+      "golpe duplo atropelar",
+      "trample double strike"
+    ],
     "response": "Golpe Duplo + Trample: na fase de First Strike, seu dano pode exceder o bloqueio e rolar para o jogador defensor; na fase normal, ele ainda ataca de novo, aplicando mais dano e rolando o excedente."
   }
 }
